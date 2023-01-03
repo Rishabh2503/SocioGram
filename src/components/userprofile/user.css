@@ -1,0 +1,35 @@
+.cardP1 {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(233, 237, 220, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    width: 29rem;
+    height: 34rem;
+    margin-top: 6.5rem;
+    margin-left: 1.5rem;
+}
+
+.discriptionP1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Pic1{
+    width: 25rem;
+    height: 10rem;
+    margin: 8%;
+    border-radius: 0.5rem;
+  
+  }
+  .Pic2{
+       position: absolute; 
+       top: 25%;
+       left: 44%;
+      width: 5rem;
+      height: 5rem;
+      border-radius: 50%;
+  }
+  .DetailP{
+    text-align: center;
+  }

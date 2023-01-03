@@ -5,7 +5,7 @@ import avatar from "..//../images/android-chrome-192x192.png"
 export default class StatusBar extends Component {
   render() {
     return (
-        <div className="flex space-x-10 overflow-x-scroll max-w-[100%] bg-white  border-gray-200 p-4 scroll-smooth scrollbar-hide" >
+        <div className="flex space-x-12  max-w-[100%] bg-white  border-gray-200 p-4 scroll-smooth scrollbar-hide " >
          <Story />
         </div>
     )
