@@ -15,10 +15,10 @@ const App =() => {
   return (
       <>
       
-      <div className="relative flex">
-      <Sidebar />
+      {/* <div className="relative flex"> */}
+      {/* <Sidebar /> */}
       
-    <div className="flex-2 flex flex-col bg-gradient-to-br from-white to-[#1f1f21]">
+    {/* <div className="flex-2 flex flex-col bg-gradient-to-br from-white to-[#1f1f21]"> */}
    
     <BrowserRouter>
     <Routes>
@@ -31,13 +31,13 @@ const App =() => {
         <Route path="/login" element={<LogIn />} />
     </Routes>
     </BrowserRouter>
-      </div>
-      <div class="relative h-36 w-72 ...">
-  <div class="absolute  w-16 ...">
-   <UserInfo />
-  </div>
-</div>
-      </div>
+      {/* </div> */}
+      {/* <div class="relative h-36 w-72 ..."> */}
+  {/* <div class="absolute  w-16 ..."> */}
+   {/* <UserInfo /> */}
+  {/* </div> */}
+{/*</div>*/}
+      {/* </div> */}
       
       </>
   )

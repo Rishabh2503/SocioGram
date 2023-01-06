@@ -1,9 +1,9 @@
 import React from "react";
 import "./LogIn.css";
-import Heading from "../Components/Heading";
-import Discription from "../Components/Description";
+import Heading from "../components/Heading";
+import Discription from "../components/Description";
 
-const logoimg = require("../Images/LogImage.svg").default;
+const logoimg = require("../images/LogImage.svg").default;
 
 function LogIn() {
   return (
