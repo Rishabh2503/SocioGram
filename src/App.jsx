@@ -34,6 +34,7 @@ const App =() => {
         <Route path="/login" element={<LogIn />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/forgot" element={<Forgot />} />
+        <Route path="/reset_pw" element={<Reset_pw />} />
         </Routes>
      </BrowserRouter>
       {/* </div> */}

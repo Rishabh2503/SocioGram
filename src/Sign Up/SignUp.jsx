@@ -28,7 +28,7 @@ const SignUp = () => {
             <p className="error" >Enter valid Username</p>
           </div>
           <div>
-            <input placeholder='Enter your Password'/>
+            <input placeholder='Enter your Password' type="password"/>
             <p className="error" >Password should be more than 8 characters.</p>
           </div>
           <div id="sign_btn">Sign Up</div>

@@ -2,11 +2,15 @@ import React from "react";
 import "./LogIn.css";
 import Heading from "../components/Heading";
 import { FcGoogle } from "react-icons/fc";
+import {useNavigate} from "react-router-dom";
 
 
 const logoimg = require("../images/LogImage.svg").default;
 
 function LogIn() {
+
+  const Navhandler= useNavigate();
+
   return (
     <>
       <Heading />
@@ -32,9 +36,7 @@ function LogIn() {
       <div id="google">
         <FcGoogle /> Continue with Google{" "}
       </div>
-      <span>
-        Don't have an account?<a href="#">Sign In</a>
-      </span>
+      <div id="footer_msg">Don't have an account? <span onClick={() => Navhandler('/signup')}>Sign Up</span></div>
     </div>
     </>
   );
