@@ -3,8 +3,7 @@ import Heading from '../components/Heading'
 import "./SignUp.css";
 import { FcGoogle } from "react-icons/fc";
 import {useNavigate} from "react-router-dom";
-
-const signimg = require("../images/SignImage.svg").default;
+import signimg from "../images/SignImage.svg";
 
 const SignUp = () => {
 
@@ -32,12 +31,12 @@ const SignUp = () => {
             <input placeholder='Enter your Password'/>
             <p className="error" >Password should be more than 8 characters.</p>
           </div>
-          <div id="sign_btn">Log In </div>
+          <div id="sign_btn">Sign Up</div>
           <div id="line"></div>
           <div id="google">
         <FcGoogle /> Continue with Google{" "}
       </div>
-      <div id="footer_msg">Already have an account? <span onClick={() => Navhandler('/login')}>Sign Up</span></div>
+      <div id="footer_msg">Already have an account?<span onClick={() => Navhandler('/login')}>Log In</span></div>
         </div>
     </div>
   )
