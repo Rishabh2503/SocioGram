@@ -17,11 +17,11 @@
 }
 
 #LogImg{
-    margin-top: 20vh;
+    margin-top: 22vh;
     margin-left: 0.6vw;
-    width: 50vw;
-    height: 32vw;
-    position: absolute;
+    width: 48vw;
+    height: 28vw;
+    position:absolute ;
 }
 
 #log-in{
@@ -144,12 +144,39 @@ span a:hover{
         display: none;
     }
 
-    #login{
-        margin-top: 0;
-        width: 80vw;
-        margin-left: 10vw;
-        height: 70vh;
+    /* #login{
+        width: 38vw;
+        margin-left: 4.124vw;
+        height: 12vh;
+        justify-content: center;
+    } */
+
+    #heading{
+        margin-left: 9vw;
+        /* margin-top: 8vh; */
+        font-family: 'Just Another Hand';
+        font-size: 4.7vw;
+        color: #976473;
+        justify-content: center;
+        width: 38vw;
     }
+
+    #log-in{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 3vh 3vw;
+        width: 64.72vw;
+        height: 37vw;
+        margin-left: 60.5vw;
+        margin-top: 10vh;
+        /* background: #FFFFFF; */
+        border: 1px solid #000000;
+        box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+        border-radius: 0.85vw;
+    }
+    
+
 }
 
 

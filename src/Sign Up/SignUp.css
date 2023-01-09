@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,200&display=swap");
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+#heading{
+    position: absolute;
+    margin-left: 9vw;
+    margin-top: -3vh;
+    font-family: 'Just Another Hand';
+    font-size: 4.7vw;
+    color: #976473;
+    width: 38vw;
+}
+
+#SignImg{
+    height: 66.7vh;
+    width: 33.8vw;
+    margin-left: 9vw;
+    margin-top: 10vw;
+    position:absolute;
+}
+
+#sign-up{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2vh 2vw ;
+    width: 30.2vw;
+    height: 41vw;
+    margin-left: 60.5vw;
+    margin-top: 4vh;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 0.85vw;
+}
+
+#head{
+    margin-left: 5.4vw;
+    font-family: "Just Another Hand";
+    font-style: normal;
+    font-size: 5vw;
+    color: #567684;
+    overflow: hidden;
+}
+
+
+input{
+  width: 26vw;
+ height: 3.2vw;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding-left: 1vw;
+}
+
+#sign_btn{
+    width: 26vw;
+  height: 3.2vw;
+  border: 1px ;
+  border-radius: 10px;
+  background-color:#976473;
+  color:white;
+  font-size: 1.5vw;
+  text-align: center;
+  cursor: pointer;
+  line-height: 3.1vw;
+}
+
+#line{
+    position: relative;
+    height: 1px;
+    width: 100%;
+    background-color: #d4d4d4;
+}
+
+#line::before{
+    content: 'OR';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFF;
+    color:#000000;
+    padding: 0 15px  ;
+    font-family: 'Poppins';
+    font-size: 1vw;
+}
+
+#google{
+    width: 15vw;
+    height: 2.2vw;
+    border: 1px ;
+    border-radius: 10px;
+    border:1px solid #000000;
+    font-size: 0.9vw;
+    text-align: center;
+    cursor: pointer;
+    line-height: 2.1vw;
+    margin-left: 5vw;
+}
+
+#footer_msg {
+    text-align: center;
+    font-size: 1vw;
+    margin-bottom: 1.5vw;
+  }
+  
+  #footer_msg span {
+    margin-left: 0.1vw;
+      font-size: 1.2vw;
+      font-weight: 800;
+      color: #976473;
+      cursor: pointer;
+  }
+
+  .error {
+    color: red;
+    font-size: 0.7vw;
+    margin: 0;
+    margin-top: 0.2vw;
+    visibility: hidden;
+  }
+

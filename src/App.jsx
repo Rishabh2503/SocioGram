@@ -9,6 +9,7 @@ import UserInfo from "./components/userprofile/UserInfo"
 import Sidebar from "./components/SideBar"
 import userProfile from "./components/userProfile";
 import LogIn from './Log In/LogIn'
+import SignUp from './Sign Up/SignUp'
 
 const App =() => {
 
@@ -29,8 +30,9 @@ const App =() => {
         <Route path="/profile" element={<Profile />} />
         <Route path="/setting" element={<Setting />} />
         <Route path="/login" element={<LogIn />} />
-    </Routes>
-    </BrowserRouter>
+        <Route path="/signup" element={<SignUp />} />
+        </Routes>
+     </BrowserRouter>
       {/* </div> */}
       {/* <div class="relative h-36 w-72 ..."> */}
   {/* <div class="absolute  w-16 ..."> */}
