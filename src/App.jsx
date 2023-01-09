@@ -10,6 +10,8 @@ import Sidebar from "./components/SideBar"
 import userProfile from "./components/userProfile";
 import LogIn from './Log In/LogIn'
 import SignUp from './Sign Up/SignUp'
+import Forgot from "./Forgot Password/Forgot";
+import Reset_pw from "./Reset password/Reset_pw"
 
 const App =() => {
 
@@ -31,6 +33,7 @@ const App =() => {
         <Route path="/setting" element={<Setting />} />
         <Route path="/login" element={<LogIn />} />
         <Route path="/signup" element={<SignUp />} />
+        <Route path="/forgot" element={<Forgot />} />
         </Routes>
      </BrowserRouter>
       {/* </div> */}

@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,200&display=swap");
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+#box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2vh 2vw ;
+    width: 30.2vw;
+    height: 35vw;
+    margin-left: 38vw;
+    margin-top: 10vh;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 0.85vw;
+}
+
+#head{
+    margin-top: 5vh;
+    margin-left: 3vw;
+    font-family: "Just Another Hand";
+    font-style: normal;
+    font-size: 5vw;
+    color: #567684;
+    overflow: hidden;
+}
+
+#content{
+    margin-left: 2vw;
+    width: 22vw;
+    text-align: center;
+    font-size: 1.4vw;
+    color: rgba(0, 0, 0, 0.5);
+}
