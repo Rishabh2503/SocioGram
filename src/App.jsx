@@ -12,6 +12,7 @@ import LogIn from './Log In/LogIn'
 import SignUp from './Sign Up/SignUp'
 import Forgot from "./Forgot Password/Forgot";
 import Reset_pw from "./Reset password/Reset_pw"
+import Otp from "../src/Otp page/Otp"
 
 const App =() => {
 
@@ -35,6 +36,7 @@ const App =() => {
         <Route path="/signup" element={<SignUp />} />
         <Route path="/forgot" element={<Forgot />} />
         <Route path="/reset_pw" element={<Reset_pw />} />
+        <Route path="/otp" element={<Otp />} />
         </Routes>
      </BrowserRouter>
       {/* </div> */}

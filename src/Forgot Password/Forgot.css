@@ -37,3 +37,8 @@
     font-size: 1.4vw;
     color: rgba(0, 0, 0, 0.5);
 }
+
+input::placeholder {
+    font: 2vw;
+}
+

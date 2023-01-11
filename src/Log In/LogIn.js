@@ -31,7 +31,7 @@ function LogIn() {
         message="Must be at least 8 characters."
         autoComplete="off"
       />
-      <button>Log In</button>
+      <div id="log_btn">Log In</div>
       <div id="line"></div>
       <div id="google">
         <FcGoogle /> Continue with Google{" "}

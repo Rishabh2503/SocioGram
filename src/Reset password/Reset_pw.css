@@ -13,3 +13,70 @@
     font-size: 1.7vw;
     margin-bottom: 2vw;
 }
+
+@media (max-width: 800px){
+    #box{
+        margin-left: 10vw;
+        width: 80vw;
+        height: 55vh;
+        margin-top: 22vh;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #content{
+        margin-top: 2vh;;
+      margin-left: 3.5vw;
+      font-size: 4vw;
+      width: 67vw;
+      
+    }
+
+    #head{
+        margin-top: 0.2vh;
+        margin-left: 14.3vw;
+        font-size: 12vw;
+    }
+
+    input{
+        height: 6vh;
+        width: 72vw;
+        margin: 2vw;
+        font-size: 3vw;
+        border: 0.1vw solid #000000;
+        border-radius: 0.85vw;
+    }
+
+    #sign_btn{
+        margin-left: 2vw;
+        border-radius: 0.85vw;
+        height: 6vh;
+        width: 72vw;
+        font-size: 5vw;
+        text-align: center;
+        line-height: 2.8;
+    }
+
+
+    #can{
+        text-align: center;
+        font-size: 5vw;
+    }
+
+    #footer_msg {
+        
+        font-size: 3vw;
+        margin-bottom: 2vw;
+      }
+      
+      #footer_msg span {
+        margin-left: 0.1vw;
+          font-size: 4vw;
+          font-weight: 800;
+          
+      }
+
+}
+
+   

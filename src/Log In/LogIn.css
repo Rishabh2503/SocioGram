@@ -97,22 +97,7 @@
     font-size: 1.1vw;
 }
   
-#google{
-    box-sizing: border-box;
-    width: 16.4vw;
-    margin-left: 3.7vw;
-    height: 3.4vw;
-    border: 1px solid #000000;
-    border-radius: 0.8vw;
-    overflow: hidden;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1.2vw;
-    /* line-height: 45px; */
-    text-align: center;
-    color: #3E3E3E;
-}
+
 
 span{
    
@@ -138,48 +123,66 @@ span a:hover{
     text-decoration: underline;
   }
 
-@media (max-width: 800px) {
-   
+  #log_btn{
+    width: 24vw;
+  height: 3.2vw;
+  border: 1px ;
+  border-radius: 10px;
+  background-color:#976473;
+  color:white;
+  font-size: 1.5vw;
+  text-align: center;
+  cursor: pointer;
+  line-height: 3.1vw;
+  }
+
+  @media (max-width: 800px)
+  {
     #LogImg{
         display: none;
     }
 
-    /* #login{
-        width: 38vw;
-        margin-left: 4.124vw;
-        height: 12vh;
-        justify-content: center;
-    } */
-
     #heading{
-        margin-left: 9vw;
-        /* margin-top: 8vh; */
-        font-family: 'Just Another Hand';
-        font-size: 4.7vw;
-        color: #976473;
-        justify-content: center;
-        width: 38vw;
+        display:none;
     }
 
     #log-in{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        padding: 3vh 3vw;
-        width: 64.72vw;
-        height: 37vw;
-        margin-left: 60.5vw;
-        margin-top: 10vh;
-        /* background: #FFFFFF; */
-        border: 1px solid #000000;
-        box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
-        border-radius: 0.85vw;
+    width: 64.2vw;
+    height: 129vw;
+    margin-left: 20.5vw;
+    margin-top: 20vh;
     }
+
+    #log-in p{
+        font-size: 18vw;
+
+    }
+
+    #log-in input{
+        height:12vw;
+        width:53vw;
+    }
+
+    #sign_btn{
+        width: 18vw;
+        height: 3.2vw;
+        border: 1px ;
+        border-radius: 10px;
+        font-size: 1.5vw;
+        line-height: 9.1vw;
+    }
+
+    #log_btn{
+        margin-left: 2vw;
+        border-radius: 0.85vw;
+        height: 5vh;
+        width: 53vw;
+        font-size: 5vw;
+        text-align: center;
+        line-height: 2.2;
+    }
+
     
-
-}
-
-
-
-
-
+  
+    
+  }
