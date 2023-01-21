@@ -1,37 +1,37 @@
-import avatar from "..//../images/android-chrome-192x192.png"
+import { faker } from '@faker-js/faker';
 
 const Story = () => {
     return (
         <>
     <div>
-    <img className="h-14 w-14 rounded-full cursor-pointer" src={avatar} alt="" 
+    <img className="h-14 w-14 rounded-full cursor-pointer" src={faker.image.avatar()} alt="" 
     
     />
-    <p className="text-xs w-16 truncate text-center">Rishabh</p>
+    <p className="text-xs w-16 truncate text-center">{faker.name.firstName()}</p>
     </div>
     <div>
-    <img className="h-14 w-14 rounded-full " src={avatar} alt="" />
-    <p className="text-xs w-16 truncate text-center">Rishabh</p>
+    <img className="h-14 w-14 rounded-full " src={faker.image.avatar()} alt="" />
+    <p className="text-xs w-16 truncate text-center">{faker.name.firstName()}</p>
     </div>
     <div>
-    <img className="h-14 w-14 rounded-full " src={avatar} alt="" />
-    <p className="text-xs w-16 truncate text-center">Rishabh</p>
+    <img className="h-14 w-14 rounded-full " src={faker.image.avatar()} alt="" />
+    <p className="text-xs w-16 truncate text-center">{faker.name.firstName()}</p>
     </div>
     <div>
-    <img className="h-14 w-14 rounded-full " src={avatar} alt="" />
-    <p className="text-xs w-16 truncate text-center">Rishabh</p>
+    <img className="h-14 w-14 rounded-full " src={faker.image.avatar()} alt="" />
+    <p className="text-xs w-16 truncate text-center">{faker.name.firstName()}</p>
     </div>
     <div>
-    <img className="h-14 w-14 rounded-full " src={avatar} alt="" />
-    <p className="text-xs w-16 truncate text-center">Rishabh</p>
+    <img className="h-14 w-14 rounded-full " src={faker.image.avatar()} alt="" />
+    <p className="text-xs w-16 truncate text-center">{faker.name.firstName()}</p>
     </div>
     <div>
-    <img className="h-14 w-14 rounded-full " src={avatar} alt="" />
-    <p className="text-xs w-16 truncate text-center">Rishabh</p>
+    <img className="h-14 w-14 rounded-full " src={faker.image.avatar()} alt="" />
+    <p className="text-xs w-16 truncate text-center">{faker.name.firstName()}</p>
     </div>
     <div>
-    <img className="h-14 w-14 rounded-full " src={avatar} alt="" />
-    <p className="text-xs w-16 truncate text-center">Rishabh</p>
+    <img className="h-14 w-14 rounded-full " src={faker.image.avatar()} alt="" />
+    <p className="text-xs w-16 truncate text-center">{faker.name.firstName()}</p>
     </div>
     </>
     

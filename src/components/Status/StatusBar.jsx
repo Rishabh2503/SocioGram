@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Story from './Story'
-import avatar from "..//../images/android-chrome-192x192.png"
+
 
 export default class StatusBar extends Component {
   render() {

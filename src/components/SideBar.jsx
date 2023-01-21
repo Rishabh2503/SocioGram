@@ -17,7 +17,7 @@ const links = [
 ];
 
 const Nav = ({ handleClick }) =>(
-    <div className='mt-10'>
+    <div className='fixed mt-10'>
         {links.map((item) =>(
           <a href={item.to} key={item.name} className="flex flex-row justify-start items-center  mx-9 my-10 text-sm font-medium text-[#d79c92] hover:text-cyan-400" onClick={() => handleClick && handleClick()}>
             <item.icon className="w-6 h-6 mr-2" />
@@ -32,7 +32,7 @@ const Sidebar = () => {
   return (
     <>
       <div className="md:flex hidden flex-col w-[240px] h-[100vh] py-10 px-4 bg-[#fefeff]">
-        <img src={logo} alt="logo" className="w-full h-10 object-contain" />
+        <h2 className="fixed ml-8 flex justify-center text-2xl bg-gradient-to-r from-[#567684] via-green-500 to-[#976473] bg-clip-text  text-transparent font-sans-Just Another Hand">Socio Gram</h2>
        <Nav />
     
       </div>

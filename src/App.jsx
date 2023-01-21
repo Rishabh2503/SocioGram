@@ -7,7 +7,7 @@ import Profile from "./pages/Profile"
 import Setting from "./pages/Setting"
 import UserInfo from "./components/userprofile/UserInfo"
 import Sidebar from "./components/SideBar"
-import userProfile from "./components/userProfile";
+import userProfile from "./components/Post Card/UserProfile";
 
 const App =() => {
 
@@ -17,7 +17,7 @@ const App =() => {
       <div className="relative flex">
       <Sidebar />
       
-    <div className="flex-2 flex flex-col bg-gradient-to-br from-white to-[#1f1f21]">
+    <div className="w-[55rem]  flex flex-col bg-gradient-to-br from-white to-[#ffffff]">
    
     <BrowserRouter>
     <Routes>
@@ -30,11 +30,12 @@ const App =() => {
       </Routes>
     </BrowserRouter>
       </div>
-      <div class="relative h-36 w-72 ...">
-  <div class="absolute  w-16 ...">
+      {/* <div class="relative h-36 w-[2rem]">
+  <div class="absolute  w-0 ...">
    <UserInfo />
   </div>
-</div>
+</div> */}
+<UserInfo />
       </div>
       
       </>
