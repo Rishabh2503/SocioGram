@@ -36,3 +36,13 @@
         text-align: center;
 }
 
+@media (max-width:800)
+{
+        #otpblock{
+                width: 83vw;
+    height: 99vw;
+    margin-left: 8.7vw;
+    margin-top: 25vh;
+        }
+}
+

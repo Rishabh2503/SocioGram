@@ -1,9 +1,13 @@
 import React from "react";
+import Sidebar from "./SideBar";
 
 const userProfile =() => {
     return(
-        <div className="bg">
-            <h1> HEllo</h1>
+        <div>
+             <Sidebar />
+             <div>
+                
+             </div>
         </div>
     )
 }

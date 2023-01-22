@@ -39,7 +39,7 @@
     border-radius: 0.85vw;
 }
 
-#log-in p{
+#log-in  p #head{
  
     margin-left: 4.2vw;
     margin-top: 1vh;
@@ -97,7 +97,10 @@
     font-size: 1.1vw;
 }
   
-
+#error{
+    color: #cf6679;
+  font-size: 0.8vw;
+}
 
 span{
    
